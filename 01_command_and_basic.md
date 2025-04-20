@@ -1,5 +1,9 @@
 # 程式是什麼？
 
+本章互動式執行環境: https://colab.research.google.com/drive/1LA1ueQZV83Mxdq1DM0wSEcIjUvA1FAhB?usp=sharing
+
+## 程式 ~ 一連串的指令
+
 在 Python，程式是你寫的一連串指令，讓 python 由上到下、依序執行
 
 例如可以當計算機
@@ -54,6 +58,19 @@ print("Happy" + " " + "Birthday")
 
 為了不要把文字跟指令搞混，你想要處理的文字要用雙引號 `"` 或單引號 `'` 夾起來，我們稱為「字串」(string)
 
+不過，字串跟數字沒辦法直接 `+` 起來；要先把數字用 `str()` 轉換成字串
+
+```python
+print("總共花了 " + 100 + " 元")  # 會有錯誤！
+
+print("總共花了 " + str(100) + " 元") # 能成功印出
+# 總共花了 100 元
+
+# 題外話，上面的指令有兩層括號，
+# 想成你先有 str(100) 裡面這個是一個單位
+# 然後整個算式指令放在 print(...) 裡面
+```
+
 題外話，如果你從 Word 之類的 copy 類似這種 `“abc”`，引號是斜斜的、前後有差別的，python 可看不懂唷！尤其文書軟體為了排版漂亮很喜歡幫你把 `"` 改成斜斜的引號，要注意
 
 ---
@@ -70,32 +87,27 @@ print("Happy" + " " + "Birthday")
 你可用「名字」來存某個數字或字串，之後可以用這名字做額外的運算
 
 ```python
-tea_price = 60
-cake_price = 80
+tea_price = 60    # 把 60 存到「茶價」
+cake_price = 80   # 把 80 存到「蛋糕價」
+
+# 把兩個價錢加起來，然後存到「花費」
 cost = tea_price + cake_price
 
 print(cost)  # 會印出 140
 ```
 
-`=` 不是真的指相等：想成是把等號「右邊」算完後，把結果存到「左邊」的名字
+* `tea_price`, `cost` 這種名字我們稱作「變數」(variable)
+* `=` 不是真的指相等：想成是把等號「右邊」算完後，把結果存到「左邊」的變數
 
-概念上像這樣
-
-* 60 → 茶價
-* 60 → 蛋糕價
-* 茶價 + 蛋糕價 是 140 → 花費
-
-`tea_price`, `cost` 這種名字我們稱作「變數」(variable)
 
 隨著程式由上到下依序執行，變數的內容值是可以變的
 
 ```python
 tea_price = 60
-cost = tea_price
+cost = tea_price  # 直接把一個變數的值給另一個變數
 print(cost)  # 60
 
-cake_price = 80
-cost = tea_price + cake_price
+cost = tea_price + 80  # 覆蓋掉原本 cost 存的值
 print(cost)  # 140
 ```
 
@@ -109,10 +121,16 @@ tea_price = tea_price + 10
 print(tea_price)  # 70
 ```
 
-`tea_price = tea_price + 10` 不是「等於」去比較左右兩邊，而是把右邊結果存放到左邊（的變數），
+`tea_price = tea_price + 10` 不是去「比較」左右兩邊，而是把右邊結果存放到左邊（的變數），
 也就是這一行執行完以後，`tea_price` 的值就被覆蓋過去了
 
----
+## 小結
+
+在這章你學到了
+* 由上到下執行的指令
+* 數字跟字串
+* 註解
+* 變數
 
 那麼，如果真的要比較兩個數字的話該怎麼做呢？請看下一章！
 
