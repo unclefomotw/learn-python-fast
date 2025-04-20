@@ -195,7 +195,7 @@ else:
 * 用 `type()` 看某個變數/值的資料型態
 * python 獨有的 `elif`
 
-除了數字、字串、布林以外，python 還有哪些資料型態？請看下一章！
+除了數字、字串、布林以外，python 還有哪些資料型態？請看[下一章](03_data_type_list.md)！
 
 想看更多額外的教學的話：
 * https://docs.python.org/zh-tw/3.13/tutorial/controlflow.html#if-statements
