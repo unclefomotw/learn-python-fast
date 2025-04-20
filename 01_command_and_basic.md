@@ -142,7 +142,7 @@ print(tea_price)  # 70
 * 註解
 * 變數
 
-那麼，如果真的要比較兩個數字的話該怎麼做呢？請看下一章！
+那麼，如果真的要比較兩個數字的話該怎麼做呢？請看[下一章](02_flow_control_if.md)！
 
 想看更多額外的教學的話：
 * https://docs.python.org/zh-tw/3.13/tutorial/introduction.html#
