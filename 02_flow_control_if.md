@@ -99,7 +99,7 @@ print(type(s))       # <class 'str'>
 
 下一章馬上介紹更多的資料類型唷！
 
-## if-else 本身是命令，可放在另一個 if-else 內
+## 巢狀 if：if-else 可放在另一個 if-else 內
 
 如果把程式當成一連串的指令，if-else 整體來看本身也是個指令，所以可以放在另一個 if-else 的分支內
 
