@@ -10,11 +10,11 @@
 1. [程式是什麼？指令、運算跟變數](01_command_and_basic.md)
 1. [控制流程 - if](02_flow_control_if.md)
 1. [資料類型 - list](03_data_type_list.md)
+1. [控制流程 - 迴圈 while 與 for](04_flow_control_loop.md)
 
 ## (todo)
 
 * 簡單講這教學不包括環境與執行
-* loop (conditional, for in, and range)
 * tuple
 * dict
 * "pseudo code" and "algorithm" first glance
