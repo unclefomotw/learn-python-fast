@@ -203,7 +203,7 @@ for month in ["五月", "六月", "七月"]:
 * `break` -- 「馬上跳出」迴圈，不執行縮排內剩下的指令，也不去數數、不管清單還沒處理的東西
 * `continue` -- 「提前進行下一輪」，暫時當作縮排內剩下的指令不存在，馬上去數下一個，或是處理清單下一個東西
 
-(圖)
+![迴圈與break與continue示意圖](./assets/python-indent-block-explain.png)
 
 通常 `break` 或 `continue` 會搭配條件判斷一起用（否則第一次就 break 跳出去，或每一次 continue 提早下一輪，都有點多餘）
 
