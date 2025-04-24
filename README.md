@@ -11,6 +11,7 @@
 1. [控制流程 - if](02_flow_control_if.md)
 1. [資料類型 - list](03_data_type_list.md)
 1. [控制流程 - 迴圈 while 與 for](04_flow_control_loop.md)
+1. [資料類型 - tuple](06_data_type_tuple.md)
 
 ## (todo)
 
