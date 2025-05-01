@@ -16,9 +16,8 @@
 ## (todo)
 
 * 簡單講這教學不包括環境與執行
-* tuple
-* dict
 * "pseudo code" and "algorithm" first glance
+* dict
 * (optional) special syntax
     * a = 1 if x else 2
     * list comprehension, list multiplication, list slicing
